@@ -1,0 +1,128 @@
+[
+  {
+    "id": "vpYsXkbPlqIf838IJP8CC",
+    "pedidoId": "2209",
+    "cpfHash": "461d5e9dd1cb89b1d822a6742c98ada49f6fb4507471630e68cf7e2149313b22",
+    "cliente": "ana",
+    "etapas": [
+      {
+        "id": "937dee95-ddc3-462f-a20f-287f7d73f714-recebido",
+        "status": "recebido",
+        "titulo": "Pedido recebido",
+        "descricao": "Pagamentos e dados confirmados.",
+        "concluido": true,
+        "data": "2025-09-18T14:56:49.273Z"
+      },
+      {
+        "id": "a8bb7693-287a-4ca5-bf8b-7ce29a1584d2-em-producao",
+        "status": "em-producao",
+        "titulo": "Em produção",
+        "descricao": "Estrutura do sofá em produção.",
+        "concluido": true,
+        "data": "2025-09-18T14:56:56.306Z"
+      },
+      {
+        "id": "146cfadf-7363-4169-9589-732fc502f1ca-em-acabamento",
+        "status": "em-acabamento",
+        "titulo": "Acabamento",
+        "descricao": "Tecidos e acabamentos em execução.",
+        "concluido": true,
+        "data": "2025-09-18T14:56:57.503Z"
+      },
+      {
+        "id": "9a8dc481-bc70-4eac-a80f-d8e15a60e011-embalado",
+        "status": "embalado",
+        "titulo": "Embalado",
+        "descricao": "Produto embalado e protegido.",
+        "concluido": true,
+        "data": "2025-09-18T14:57:35.095Z"
+      },
+      {
+        "id": "8c49f444-ab54-43dc-b30d-d8648d431fe1-pronto-para-envio",
+        "status": "pronto-para-envio",
+        "titulo": "Pronto para envio",
+        "descricao": "Aguardando agendamento da coleta.",
+        "concluido": false
+      },
+      {
+        "id": "d7288937-0e03-49d3-93c6-ee2ca650aff2-em-transporte",
+        "status": "em-transporte",
+        "titulo": "Em transporte",
+        "descricao": "Em deslocamento para o endereço informado.",
+        "concluido": false
+      },
+      {
+        "id": "8cec90c9-4065-44b8-9dff-8bb7cca56397-entregue",
+        "status": "entregue",
+        "titulo": "Entregue",
+        "descricao": "Produto entregue ao cliente.",
+        "concluido": false
+      }
+    ],
+    "notasInternas": "",
+    "createdAt": "2025-09-18T14:56:49.284Z",
+    "updatedAt": "2025-09-18T14:57:37.862Z"
+  },
+  {
+    "id": "18iu_iZBU7N3tqNlxurDA",
+    "pedidoId": "2239",
+    "cpfHash": "254aa248acb47dd654ca3ea53f48c2c26d641d23d7e2e93a1ec56258df7674c4",
+    "cliente": "mauricio",
+    "etapas": [
+      {
+        "id": "336809c4-ef89-4a95-be18-185ca46dbfd7-recebido",
+        "status": "recebido",
+        "titulo": "Pedido recebido",
+        "descricao": "Pagamentos e dados confirmados.",
+        "concluido": true,
+        "data": "2025-09-18T14:59:01.577Z"
+      },
+      {
+        "id": "e1d8619e-8199-4bbc-b3ac-5895c13161cf-em-producao",
+        "status": "em-producao",
+        "titulo": "Em produção",
+        "descricao": "Estrutura do sofá em produção.",
+        "concluido": true,
+        "data": "2025-09-18T14:59:05.514Z"
+      },
+      {
+        "id": "d4edeb2d-9769-40ba-80f4-ea9bcccaf346-em-acabamento",
+        "status": "em-acabamento",
+        "titulo": "Acabamento",
+        "descricao": "Tecidos e acabamentos em execução.",
+        "concluido": false
+      },
+      {
+        "id": "5e073943-4588-4674-a91e-97a4196d6c1a-embalado",
+        "status": "embalado",
+        "titulo": "Embalado",
+        "descricao": "Produto embalado e protegido.",
+        "concluido": false
+      },
+      {
+        "id": "2e162698-e288-4cfe-bb71-2100cf27fe4e-pronto-para-envio",
+        "status": "pronto-para-envio",
+        "titulo": "Pronto para envio",
+        "descricao": "Aguardando agendamento da coleta.",
+        "concluido": false
+      },
+      {
+        "id": "d2b4e708-454b-4434-86b1-152db47b7cd5-em-transporte",
+        "status": "em-transporte",
+        "titulo": "Em transporte",
+        "descricao": "Em deslocamento para o endereço informado.",
+        "concluido": false
+      },
+      {
+        "id": "b2f439ec-3a7a-4504-8f38-d1f853eb0b5a-entregue",
+        "status": "entregue",
+        "titulo": "Entregue",
+        "descricao": "Produto entregue ao cliente.",
+        "concluido": false
+      }
+    ],
+    "notasInternas": "",
+    "createdAt": "2025-09-18T14:59:01.590Z",
+    "updatedAt": "2025-09-18T14:59:08.206Z"
+  }
+]
