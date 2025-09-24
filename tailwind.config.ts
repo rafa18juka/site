@@ -1,48 +1,31 @@
 import type { Config } from "tailwindcss";
+
 const config: Config = {
   darkMode: ["class"],
-  content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./lib/**/*.{ts,tsx}",
-    "./content/**/*.{md,mdx}"
-  ],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
   theme: {
     container: {
       center: true,
       padding: "1rem",
       screens: {
-        "2xl": "1320px"
+        "2xl": "1280px"
       }
     },
     extend: {
       colors: {
         brand: {
-          background: "#f9f6f1",
-          foreground: "#111111",
-          charcoal: "#1c1c1c",
-          champagne: "#d4b16a",
-          muted: "#f0ece6"
+          50: "#f8fafc",
+          100: "#e2e8f0",
+          500: "#0f172a",
+          600: "#0b1120",
+          700: "#020617"
         }
       },
       borderRadius: {
-        xl: "1.25rem",
-        "2xl": "1.75rem",
-        "3xl": "2.25rem"
-      },
-      fontFamily: {
-        display: ["var(--font-display)", "serif"],
-        sans: ["var(--font-sans)", "sans-serif"]
+        xl: "1rem"
       },
       boxShadow: {
-        luxe: "0 25px 60px -35px rgba(26, 26, 26, 0.35)",
-        inset: "inset 0 1px 0 rgba(255,255,255,0.35)"
-      },
-      backgroundImage: {
-        "grid-gold":
-          "linear-gradient(135deg, rgba(212, 177, 106, 0.12) 0%, rgba(249, 246, 241, 0) 60%)",
-        "hero-overlay":
-          "linear-gradient(180deg, rgba(9, 9, 9, 0.4) 0%, rgba(9,9,9,0.72) 75%, rgba(9,9,9,0.9) 100%)"
+        card: "0 20px 45px -20px rgba(15, 23, 42, 0.25)"
       }
     }
   },
