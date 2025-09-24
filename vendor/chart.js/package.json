@@ -1,0 +1,7 @@
+{
+  "name": "chart.js",
+  "version": "4.4.4",
+  "main": "dist/chart.js",
+  "module": "dist/chart.mjs",
+  "types": "dist/types/index.d.ts"
+}
